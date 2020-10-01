@@ -1,0 +1,68 @@
+body {
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.currentLink {
+  border-bottom: 2px solid black;
+  scroll-behavior: auto;
+}
+
+.dropDown {
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+.dropDown > div {
+  border-bottom: 1px solid #aaa;
+}
+
+.dropDown > div:hover {
+  background-color: #ccc;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.ProfilePic {
+  border-radius: 50%;
+  border: 1 px solid black;
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  width: 500px;
+  height: 50px;
+}
+
+.ingredients {
+  width: 500px;
+  height: 100px;
+}
+
+.method {
+  width: 500px;
+  height: 350px;
+}
+
+.category {
+  width: 500px;
+  height: 30px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  margin-left: 407px;
+}
+ 
